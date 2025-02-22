@@ -1,0 +1,46 @@
+.homeworkPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+  
+
+.header {
+    background-color: pink; 
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    flex-shrink: 0;
+}
+  
+.sidebar {
+    background-color: white; 
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+  
+.content {
+    background-color: papayawhip;
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.footer {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    flex-shrink: 0;
+}
+
+.mainContent {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
