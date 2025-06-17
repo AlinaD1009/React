@@ -1,0 +1,21 @@
+input, select {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  margin-left: 5px;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.done {
+  text-decoration: line-through;
+}
